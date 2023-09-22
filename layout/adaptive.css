@@ -1,11 +1,5 @@
-@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
-    .hero {
-        background-image: linear-gradient(
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)
-        ),
-        url('../images/main-bg@2x.jpg')
-    }
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
 
     @media screen and (max-width: 767px) {
         .menu {
@@ -100,9 +94,8 @@
             padding: 72px 16px;
             background-image: linear-gradient(
                     rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)
-            ),
-            url('../images/mobile-main-bg.jpg');
+                    rgba(46, 47, 66, 0.7)), url('../images/mobile-main-bg.jpg'),linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/main-bg@2x.jpg')
+
         }
         .title{
             max-width: 288px;
@@ -219,7 +212,10 @@
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)
             ),
-            url('../images/tablet-bg.jpg')
+            url('../images/tablet-bg.jpg'), linear-gradient(
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)
+            ), url('../images/tablet-bg@2x.jpg')
         }
         .icons-svg{
             display: none;
