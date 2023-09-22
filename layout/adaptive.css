@@ -131,9 +131,6 @@
         .feature-list{
             gap: 72px;
         }
-        .feature-block .paragraph{
-            min-width:288px;
-        }
         .feature-headers{
             font-size: 36px;
             font-weight: 700;
