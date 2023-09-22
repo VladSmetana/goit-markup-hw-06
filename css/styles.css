@@ -200,10 +200,6 @@
     flex-direction: row;
     gap:24px;
 }
-.feature-list{
-    list-style-type: none;
-    width:calc((100% - 72px)/4);
-}
 .feature-headers{
     color:#2E2F42;
     font-size: 20px;

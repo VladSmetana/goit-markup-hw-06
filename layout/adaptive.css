@@ -172,6 +172,7 @@
             flex-direction: column;
             text-align: center;
             justify-content: center;
+            align-items: center;
         }
         .social-media-container{
             margin-top: 72px;
@@ -190,6 +191,13 @@
             display: flex;
             flex-direction: column;
         }
+        .form-container{
+            margin-left: 0;
+        }
+        .logo-paragraph-footer{
+            margin-right: 0;
+        }
+
     }
     @media screen and (min-width: 768px) and (max-width: 1157px) {
         .open-mobile-menu-btn {
@@ -252,6 +260,21 @@
             margin-right: 24px;
         }
     }
+@media screen and (min-width: 1158px) {
+    .open-mobile-menu-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+    .mobile-image{
+        display: none;
+    }
+    .feature-list .list{
+        width:calc((100% - 72px)/4);
+    }
+}
 
 
 
