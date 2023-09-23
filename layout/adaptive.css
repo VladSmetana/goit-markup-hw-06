@@ -1,6 +1,6 @@
 @media screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
-
+}
     @media screen and (max-width: 767px) {
         .menu {
             display: none;
@@ -233,7 +233,6 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
         .logo-paragraph-footer {
             margin-right: 0;
         }
-    }
     }
     @media screen and (min-width: 768px) and (max-width: 1157px) {
         .open-mobile-menu-btn {
