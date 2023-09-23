@@ -5,23 +5,28 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
         .menu {
             display: none;
         }
-        .address{
+
+        .address {
             display: none;
         }
-        .header{
+
+        .header {
             padding: 18px 0;
         }
-        .burger-container{
+
+        .burger-container {
             display: flex;
             justify-content: flex-end;
         }
-        .open-mobile-menu-btn{
+
+        .open-mobile-menu-btn {
             border: none;
             background-color: transparent;
             padding: 0;
             line-height: 0;
         }
-        .mobile-menu{
+
+        .mobile-menu {
             position: fixed;
             left: 0;
             top: 0;
@@ -31,11 +36,14 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             background-color: #fff;
             transform: translateX(100%);
             transition: transform 250ms ease-out;
+            padding: 72px 40px 40px 16px;
         }
+
         .mobile-menu.is-open {
             transform: translateX(0%);
         }
-        .mobile-menu-close-btn{
+
+        .mobile-menu-close-btn {
             position: absolute;
             top: 24px;
             right: 24px;
@@ -50,10 +58,12 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             padding: 0;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-        .mobile-menu-close-btn:active{
+
+        .mobile-menu-close-btn:active {
             background-color: #404bbf;
         }
-        .mobile-list{
+
+        .mobile-list {
             font-size: 36px;
             font-weight: 700;
             line-height: 1.11; /* 111.111% */
@@ -62,42 +72,53 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             display: flex;
             flex-direction: column;
             gap: 40px;
-            margin-top: 72px;
-            margin-left: 16px;
         }
-        .mobile-list-headers:active{
+
+        .mobile-list-headers:active {
             color: #404bbf;
         }
-        address{
+        address {
             font-size: 20px;
             font-style: normal;
             font-weight: 500;
             line-height: 1.2; /* 120% */
             letter-spacing: 0.02em;
-            margin-top: 168px;
-            margin-left: 16px;
             margin-bottom: 48px;
             display: flex;
-            flex-direction: column;
         }
-        .social-media{
-            gap: 40px;
-            margin-left: 16px;
-            margin-right: 16px;
+
+        .social-media {
+            gap: 16px;
         }
-        .head-container{
-            display:flex;
+
+        .head-container {
+            display: flex;
             align-items: center;
             justify-content: space-between;
         }
-        .hero{
+        .mobile-contacts{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 24px;
+        }
+        .mobile-contacts .contacts{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2; /* 120% */
+            letter-spacing: 0.02em;
+        }
+        .mobile-contacts .contacts:active{
+            color: #404bbf;
+        }
+        .hero {
             padding: 72px 16px;
             background-image: linear-gradient(
                     rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)), url('../images/mobile-main-bg.jpg'),linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/main-bg@2x.jpg')
+                    rgba(46, 47, 66, 0.7)), url('../images/mobile-main-bg.jpg'), linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/main-bg@2x.jpg')
 
         }
-        .title{
+
+        .title {
             max-width: 288px;
             text-align: center;
             font-size: 36px;
@@ -107,24 +128,30 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             letter-spacing: 0.02em;
             text-transform: capitalize;
         }
-        .icons-svg{
+
+        .icons-svg {
             display: none;
         }
-        .features .container{
+
+        .features .container {
             margin: 0 auto;
         }
-        .features{
+
+        .features {
             padding: 96px 0;
         }
-        .feature-block{
+
+        .feature-block {
             display: flex;
             flex-direction: column;
             gap: 72px;
         }
-        .feature-list{
+
+        .feature-list {
             gap: 72px;
         }
-        .feature-headers{
+
+        .feature-headers {
             font-size: 36px;
             font-weight: 700;
             line-height: 1.11; /* 111.111% */
@@ -132,34 +159,40 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             text-transform: capitalize;
             text-align: center;
         }
-        .feature-list.paragraph{
+
+        .feature-list.paragraph {
             font-size: 16px;
             font-weight: 500;
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;
         }
-        .team-container{
+
+        .team-container {
             display: flex;
             flex-direction: column;
             gap: 72px;
             align-items: center;
         }
-        .stuff-list{
-            width:264px;
+
+        .stuff-list {
+            width: 264px;
         }
+
         .container-hidden img:not(.mobile-image) {
             display: none;
         }
-    }
-        .portfolio-list-container{
+
+        .portfolio-list-container {
             display: flex;
             flex-direction: column;
             gap: 72px;
             align-items: center;
         }
-        .portfolio-list{
-            width:288px;
+
+        .portfolio-list {
+            width: 288px;
         }
+
         .footer .container {
             display: flex;
             flex-direction: column;
@@ -167,30 +200,40 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             justify-content: center;
             align-items: center;
         }
-        .social-media-container{
+
+        .social-media-container {
             margin-top: 72px;
             margin-bottom: 72px;
         }
-        .footer.logo{
-            justify-content: center;
-        }
-        .social-media-paragraph{
-            text-align: center;
-        }
-        .form-container>.paragraph{
-            text-align: center;
-        }
-        .form{
-            display: flex;
-            flex-direction: column;
-        }
-        .form-container{
-            margin-left: 0;
-        }
-        .logo-paragraph-footer{
-            margin-right: 0;
+        .footer-text{
+            text-align: start;
         }
 
+        .social-media-paragraph {
+            text-align: center;
+        }
+
+        .form-container > .paragraph {
+            text-align: center;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-button{
+            width: 165px;
+        }
+
+        .form-container {
+            margin-left: 0;
+        }
+
+        .logo-paragraph-footer {
+            margin-right: 0;
+        }
+    }
     }
     @media screen and (min-width: 768px) and (max-width: 1157px) {
         .open-mobile-menu-btn {
@@ -205,7 +248,13 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
         }
         .contacts-block{
             flex-direction: column;
-            gap: 6px;
+            gap: 12px;
+        }
+        .contacts{
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.16; /* 116.667% */
+            letter-spacing: 0.04em;
         }
         .hero {
             background-image: linear-gradient(
@@ -215,7 +264,11 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             url('../images/tablet-bg.jpg'), linear-gradient(
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)
-            ), url('../images/tablet-bg@2x.jpg')
+            ), url('../images/tablet-bg@2x.jpg');
+            padding: 112px 0;
+        }
+        .title{
+            margin: 0 auto 36px auto;
         }
         .icons-svg{
             display: none;
@@ -223,10 +276,19 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
         .features{
                 padding: 96px 0;
             }
+        .team{
+            padding: 96px 0;
+        }
+        .portfolio{
+            padding: 96px 0;
+        }
         .feature-block{
             display: flex;
             gap: 24px;
             flex-wrap: wrap;
+        }
+        .feature-block .paragraph{
+            margin-bottom: 72px;
         }
         .feature-list{
             width: calc((100% - 24px)/2);
@@ -236,20 +298,36 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             gap: 24px;
             flex-wrap: wrap;
         }
+        .feature-headers{
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.11; /* 111.111% */
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+        }
+        .feature-block .paragraph{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5; /* 150% */
+            letter-spacing: 0.02em;
+        }
         .stuff-list{
             width: calc((552px - 24px)/2);
+            margin-bottom: 64px;
         }
         .team-container{
             justify-content: center;
         }
         .portfolio-list{
             width:calc((100% - 48px)/2);
+            margin-bottom: 72px;
         }
         .footer .container{
             flex-wrap: wrap;
         }
         .form-container{
-            margin-left: 0;
+            margin-left: 92px;
+            margin-top: 72px;
         }
         .logo-paragraph-footer{
             margin-left: 92px;
@@ -267,7 +345,7 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
     .mobile-image{
         display: none;
     }
-    .feature-list .list{
+    .list{
         width:calc((100% - 72px)/4);
     }
 }
