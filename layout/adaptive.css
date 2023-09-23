@@ -1,6 +1,6 @@
-@media screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
-}
+/*@media screen and (min-resolution: 192dpi),*/
+/*screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {*/
+/*}*/
     @media screen and (max-width: 767px) {
         .menu {
             display: none;
@@ -37,6 +37,8 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
             transform: translateX(100%);
             transition: transform 250ms ease-out;
             padding: 72px 40px 40px 16px;
+            display: flex;
+            flex-direction: column;
         }
 
         .mobile-menu.is-open {
@@ -109,6 +111,9 @@ screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
         }
         .mobile-contacts .contacts:active{
             color: #404bbf;
+        }
+        .mobile-contacts-container{
+            margin-top: auto;
         }
         .hero {
             padding: 72px 16px;
