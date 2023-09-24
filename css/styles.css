@@ -183,7 +183,6 @@
     display: flex;
     justify-content: center;
     gap:24px;
-    padding-top: 8px;
     list-style-type: none;
 }
 .social-svg{
